@@ -1,0 +1,117 @@
+/* 
+    Holds all the info
+    Most Outer Div
+*/
+.container{
+    color:white;
+    margin: 8rem 0 ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+/* in the name holds the pokemon's types */
+.types_container{
+    color:white;
+    background-color: darkgrey;
+    /* border: .8em solid #e4412;*/
+    border: .8em solid #6F1D1B;
+    border-radius: 2em;
+    padding:2em 1em;
+    text-align: center;
+}
+/* is the pokemon's types */
+.types{
+    color:white;
+    text-align: center;
+}
+/* height and weight of the pokemon */
+.physicals{
+    color:white;
+    background-color: darkgrey;
+    /* border: .8em solid #e4412f; */
+    border: .8em solid #6F1D1B;
+    border-radius: 2em;
+    padding:1em;
+    /* height : 5em;
+    width:10em; */
+    text-align: center;
+}
+/* the styling for the button to return to the home */
+.button{
+    color:white;
+    background-color: darkgrey;
+    /* border: .3em solid #e4412f; */
+    border: .8em solid #6F1D1B;
+    border-radius: 1em;
+    padding:1em;
+    transition: all .2s ease-in-out; 
+    text-decoration: none;
+    margin:4em;
+    position:absolute;
+    top:0;
+    left:0;
+}
+.button:hover{
+    text-decoration: underline;
+    transform: scale(1.2); 
+}
+/* all the locations */
+.location_container{
+    color:white;
+    background-color: darkgrey;
+    /* border: .8em solid #e4412f; */
+    border: .8em solid #6F1D1B;
+    border-radius: 2em;
+    display: flex;
+    flex-direction: column;
+    /* margin:0 20em 0 20em; */
+    width:40em;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+/* the header that says LOCATIONS */
+.location_header{
+    color:white;
+    padding-top:2em;
+    display: block;
+}
+/* each locations */
+.location{
+    color:white;
+    text-align: center;
+    margin: 2em;
+    border-bottom: 2px solid white;
+}
+/* the pokemon's image */
+.img_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:8em;
+    width:8em;
+    padding:1.5em;
+    background-color: darkgrey;
+    /* background-color:#BB9457; */
+    /* border: .8em solid #e4412f; */
+    border: .8em solid #6F1D1B;
+    border-radius: 2em;
+}
+.shiny_button{
+    background-color: beige;
+    border: .1em solid #6F1D1B;
+    width: 8em;
+    height: 2em;
+}
+/* holds the stats of the pokemon */
+.stat_container{
+    color:white;
+    background-color: darkgrey;
+    /* background-color:#BB9457; */
+    /* border: .8em solid #e4412f; */
+    border: .8em solid #6F1D1B;
+    border-radius: 2em;
+    padding:1em 2em;
+}

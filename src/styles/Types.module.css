@@ -1,12 +1,3 @@
-body{
-    /* background-color: rgb(6, 91, 30); */
-    background-color: #432818;
-    font-family: "Lucida Grande" , "monospace";
-}
-.type{
-    padding:.5em;
-    border-radius: .5em;
-}
 .bug{
     background-color: lime;
 }
@@ -20,7 +11,7 @@ body{
     background-color:darkred ;
 }
 .fire{
-    background-color:orangered;
+    background-color:red;
 }
 .flying{
     background-color: lightblue;
@@ -28,13 +19,11 @@ body{
 .ghost{
     background-color: white;
 }
-.grass{
-    background-color: green;
-}
+
 .ground{
     background-color: brown;
 }
-.ice{    
+.ice{
     background-color: rgb(113, 197, 225);
 }
 .normal{
@@ -50,5 +39,5 @@ body{
     background-color: tan;
 }
 .water{
-    background-color: rgb(30, 30, 206);
+    background-color: blue;
 }

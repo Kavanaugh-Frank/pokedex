@@ -1,0 +1,45 @@
+
+body{
+    background-color: #ffffff;
+}
+/* this holds the each pokemon card */
+.container{
+    margin: 4em 8em;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(200px, 1fr));
+}
+/* gives another layer for the color */
+.outer{
+    background-color: #555858;
+    border-radius: .25rem;
+}
+
+/* the item container */
+.item{
+    text-align: center;
+    padding: .5rem .5rem;
+    max-width: small;
+    border-radius: 0rem 0 0 1rem ;
+    background-color: darkgrey;
+    /* border: .5rem solid #e4412f; */
+    border: .8em solid #6F1D1B;
+    margin-top: 1rem;
+    margin-right: 2rem;
+}
+
+/* the name of the pokemon */
+.nameStyle{
+    padding-top: .25rem;
+    text-decoration: none;
+    color:white;
+    text-transform: uppercase;
+}
+
+
+/* image in the item */
+.pokeImage{
+    transition: all .2s ease-in-out; 
+}
+.pokeImage:hover{
+    transform: scale(1.2); 
+}
